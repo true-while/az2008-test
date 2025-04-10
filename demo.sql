@@ -5,3 +5,5 @@ CREATE TABLE customer (
     email VARCHAR(100) UNIQUE NOT NULL,
     phone_number VARCHAR(100)
 );
+
+SELECT * FROM customer
